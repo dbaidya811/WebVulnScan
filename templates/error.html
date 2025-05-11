@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error - WebVulnScan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-shield-alt"></i> WebVulnScan</h1>
+            <p>Web Application Vulnerability Scanner</p>
+        </header>
+        
+        <main>
+            <div class="error-container card">
+                <div class="error-icon">
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <h2>Error</h2>
+                <p>{{ message }}</p>
+                <a href="{{ url_for('index') }}" class="btn primary">Back to Home</a>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 WebVulnScan. All rights reserved.</p>
+        </footer>
+    </div>
+    <script>
+        // Optional JavaScript for additional functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add any JavaScript functionality here
+        });
+    </script>
+    <style>
+        /* Add any additional styles here */
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .error-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .error-icon {
+            font-size: 50px;
+            color: #e74c3c;
+        }
+        .btn.primary {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn.primary:hover {
+            background-color: #2980b9;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        p {
+            font-size: 1em;
+            color: #555;
+        }
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            header, footer {
+                padding: 10px;
+            }
+            .error-icon {
+                font-size: 40px;
+            }
+        }
+    </style>
+    <script>
+        // Optional JavaScript for additional functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add any JavaScript functionality here
+        });
+    </script>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="static/js/script.js"></script>
+    <script>
+        // Optional JavaScript for additional functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add any JavaScript functionality here
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.5.1/vue-router.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vuex/3.6.2/vuex.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-i18n/8.24.4/vue-i18n.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-axios/2.1.5/vue-axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-multiselect/2.1.6/vue-multiselect.min.js"></script> 
