@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Vulnerability Scanner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1517/1517295.png">
+</head>
+<body oncontextmenu="return false">
+    <canvas id="backgroundAnimation"></canvas>
+    <div class="container">
+        <header>
+            <div class="header-top">
+                <div class="theme-switch-wrapper">
+                    <span class="theme-switch-label"><i class="fas fa-sun"></i></span>
+                    <label class="theme-switch">
+                        <input type="checkbox" id="themeToggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="theme-switch-label"><i class="fas fa-moon"></i></span>
+                </div>
+            </div>
+            <h1>Web Vulnerability Scanner</h1>
+            <p>Find security vulnerabilities in websites</p>
+        </header>
+
+        <main>
+            <div class="scan-form">
+                <input type="url" id="targetUrl" placeholder="Enter website URL (e.g., https://example.com)" required>
+                <button id="scanButton" class="btn-scan">
+                    <i class="fas fa-search"></i> Scan Website
+                </button>
+            </div>
+
+            <div class="results-container" style="display: none;">
+                <h2>Scan Results</h2>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <div id="vulnerabilities"></div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Created for security testing purposes only. Use responsibly.This is a test version of the application. Please do not use it for any real-world scanning or production purposes.</p>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
