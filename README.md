@@ -26,7 +26,7 @@ The **Web Vulnerability Checker** is a simple yet effective tool to detect commo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dbaidya811/web-vulnerability-checker.git
+   git clone https://github.com/dbaidya811/WebVulnScan.git
    ```
    ## ⚠️ Disclaimer
 
